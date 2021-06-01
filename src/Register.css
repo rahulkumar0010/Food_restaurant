@@ -1,0 +1,35 @@
+.register{
+    margin: auto;
+    margin-top: 0px;
+    background-color: rgb(130, 156, 88);
+    height: 120vh;
+}
+ .signup{
+    border: 3px solid rgb(250, 180, 180);
+    border-radius: 30px;
+    width: 280px;
+    height: 99vh;
+    padding-top: 40px;
+    margin: auto;
+    margin-right: 30px;
+    text-align: center;
+    color: black;
+
+}
+.Text{
+    border-radius: 5px;
+    height: 25px;
+    width: 180px;
+    border: 2px solid blue;
+}
+
+.title{
+    
+    /* width: 230px;
+    height: 40px; */
+
+    border-radius: 10px;
+    margin: 0px;
+    background-color: aquamarine;
+    color: black;
+} 

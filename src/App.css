@@ -1,0 +1,101 @@
+
+
+.login{
+  justify-content: center;
+  margin: auto;
+  background-color: rgb(130, 156, 88);
+  height: 100vh;
+  margin-top: 0px;
+}
+.signC{
+  border: 3px solid rgb(73, 51, 51);
+  border-radius: 30px;
+  width: 280px;
+  height: 80vh;
+  padding-top: 40px;
+  margin: auto;
+  padding: 20px 20px;
+  margin-right: 30px;
+  text-align: center;
+
+}
+.firstText{
+  border-radius: 8px;
+  border: 2px solid blue;
+  height: 25px;
+  word-spacing: 20%;
+  
+}
+.secondText{
+  border-radius: 8px;
+  border: 2px solid blue;
+  height: 25px;
+  
+}
+.h1{
+  border: 0px solid rgb(142, 236, 189);
+  width: 100px;
+  border-radius: 10px;
+  margin: auto;
+  background-color: aquamarine;
+} 
+
+#btn:hover{
+  background-color: khaki;
+  color: tomato;
+  font-weight: bold;
+
+}
+.welcome{
+  text-align: center;
+  margin-top: 10%;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  
+}
+
+.products img {
+  width: 13rem;
+  border: 3px solid rgb(243, 239, 239);
+}
+
+.product {
+  padding: 40px;
+}
+
+button {
+  font-size: 20px;
+  /* padding: 10px; */
+  background-color: rgb(23, 145, 245);
+  color:  white;
+  font-weight:400;
+}
+
+.Shop{
+  margin-left: 75%;
+  margin-right: auto;
+  cursor: pointer;
+  
+}
+@media only screen and (max-width: 450px) {
+  /* For mobile phones: */
+  .Shop{
+    margin-left: 10%;
+  }
+  
+}
+.Thanks{
+  margin-top: 15%;
+  width: 45rem;
+  border: 0.5px solid rgb(228, 224, 224);
+  box-shadow: 5px solid thistle;
+}
+.Thanks h1{
+  text-align: center;
+}
+.Thanks button{
+  margin-left: 45%;
+}
